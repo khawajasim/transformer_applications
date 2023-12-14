@@ -1,3 +1,5 @@
+import sys
+sys.path.append("..")
 from transformer.model import build_transformer
 from dataset import BilingualDataset, causal_mask
 from config import get_config, get_weights_file_path, latest_weights_file_path
